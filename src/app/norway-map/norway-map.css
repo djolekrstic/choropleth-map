@@ -1,0 +1,23 @@
+.map-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.map-container {
+  width: 100%;
+}
+
+.map-container svg {
+  display: block;
+}
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  transition: opacity 0.15s;
+}

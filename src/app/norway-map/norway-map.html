@@ -1,0 +1,12 @@
+<div class="map-wrapper">
+  <div #mapContainer class="map-container"></div>
+  <div
+    class="tooltip"
+    [style.opacity]="tooltip.visible ? 1 : 0"
+    [style.left.px]="tooltip.x"
+    [style.top.px]="tooltip.y"
+  >
+    <strong>{{ tooltip.name }}</strong>
+    <span>{{ tooltip.value }}</span>
+  </div>
+</div>
